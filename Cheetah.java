@@ -1,14 +1,15 @@
 public class Cheetah {
-    public String makanan = "Daging", suara = "Meong";
-    public int umur = 12;
+    public static String makanan = "Daging";
+    public static String suara = "Meong";
+    public static int umur = 12;
 
-    public void makanan(){
+    public static void makanan(){
         System.out.println("Makanan Cheetah adalah "+makanan);
     }
-    public void suara(){
+    public static void suara(){
         System.out.println("Suara cheetah berbunyi "+suara);
     }
-    public void umur(){
+    public  static void umur(){
         System.out.println("Umur cheetah adalah "+umur);
     }
 }
