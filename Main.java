@@ -23,5 +23,17 @@ public class Main {
         Ikan.suara();
 
         //Objek monyet
+        Monyet ketek = new Monyet();
+
+        Monyet.suara();
+        Monyet.makanan();
+        Monyet.umur();
+
+        //Objek jerapah
+        Jerapah jrph = new Jerapah();
+
+        Jerapah.umur();
+        Jerapah.suara();
+        Jerapah.makanan();
     }
 }
