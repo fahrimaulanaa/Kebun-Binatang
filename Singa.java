@@ -1,15 +1,15 @@
 public class Singa {
-    String makanan = "Daging";
-    String suara = "Meong";
-    int umur = 16;
+    static String makanan = "Daging";
+    static String suara = "Meong";
+     static int umur = 16;
 
-    void makan(){
+    public static void makan(){
         System.out.println("Makanan singa adalah "+makanan);
     }
-    void suaranya(){
+     public static void suaranya(){
         System.out.println("Suara singa berbunyi "+suara);
     }
-    void umurnya(){
+      public static void umurnya(){
         System.out.println("Umur singa adalah "+umur);
     }
 }
